@@ -113,6 +113,6 @@ Durante este proceso, el contenido previo de la memoria fue eliminado.
  - Finalmente, tras un tiempo de espera en el que se copiaron los archivos y se configuró el sistema, la instalación se completó exitosamente, quedando listo para reiniciar el equipo e iniciar Ubuntu desde el gestor de arranque.
 <p align="center">
   <img src="https://github.com/Lau-raCrz/Laboratorio1/blob/4ae00ff856e059aebb83632f553680ec1885a451/Imagenes%20Digitales/Instalacion_completada.jpg" width="400" />
-</p>
+</p> 
 
 
