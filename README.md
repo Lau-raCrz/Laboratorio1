@@ -42,6 +42,8 @@ Es el sistema de archivos estándar en la mayoría de las distribuciones de Linu
 #### 🟪 APFS (Apple File System):
 Desarrollado por Apple y lanzado en 2017, APFS es el sistema de archivos nativo para macOS, iOS, tvOS y watchOS. Fue diseñado para la era de las unidades de estado sólido (SSD) y el almacenamiento flash, ofreciendo optimizaciones específicas para ellos. Sus características avanzadas incluyen clones instantáneos (instantáneas), encriptación nativa, espacios compartidos y un manejo eficiente del espacio. En cuanto a sus límites, el tamaño máximo de archivo y volumen es de 8 EB (Exabytes), lo que lo hace adecuado para el almacenamiento de datos a gran escala. Su compatibilidad es exclusivamente dentro del ecosistema de Apple; es completamente nativo y optimizado para dispositivos macOS, iPhone, iPad, Apple TV y Apple Watch, pero no es compatible de forma nativa con Windows o Linux, lo que limita su uso en entornos multiplataforma fuera del software de terceros. Se recomienda su uso para todos los discos internos y externos de dispositivos Apple, aprovechando al máximo sus características de rendimiento y seguridad.
 
+![Image Alt](https://github.com/Lau-raCrz/Laboratorio1/blob/379c5f3c195d6558917f83d0375aea3031172716/exfat-fat32-or-ntfs.jpg)
+
 ### 📊 Comparativa Rápida
 
 | Sistema  | Compatibilidad | Tamaño Máx. Archivo | Uso Recomendado | Seguridad y Permisos|
@@ -58,16 +60,26 @@ APFS	|macOS (✔), Windows/Linux (❌ sin software) |	8 EB |	Discos internos de 
 #### **Descarga de la herramienta**
  - Se descargó la utilidad Rufus en el computador. Para este procedimiento se utilizó la versión 4.9.
 
+![Image Alt](https://github.com/Lau-raCrz/Laboratorio1/blob/379c5f3c195d6558917f83d0375aea3031172716/image.png)
+
 #### **Configuracion de la instalación**
  - Una vez ejecutado Rufus, en el campo “Dispositivo” se seleccionó la memoria USB que se iba a formatear.
  - Posteriormente, en la opción “Selección de arranque” se cargó la imagen ISO de Ubuntu previamente
  - En el apartado de esquema de partición se eligió GPT, dado que el sistema de destino utiliza firmware UEFI moderno.
  - Se hizo clic en “Empezar” y se esperó a que Rufus finalizara la creación de la memoria USB booteable.
 Durante este proceso, el contenido previo de la memoria fue eliminado.
+
+![Image Alt]() 
+
 #### Resultado final
  - Una vez completada la instalación, la memoria quedó configurada como un medio de arranque de Ubuntu, lista para ser utilizada.
+
+![ImagenAlt](https://github.com/Lau-raCrz/Laboratorio1/blob/379c5f3c195d6558917f83d0375aea3031172716/imagen_2025-08-17_020036485.png)
+
 #### Arranque desde la USB
  - Finalmente, se reinició el computador, se accedió al menú UEFI/BIOS y se seleccionó la memoria USB como dispositivo de arranque.
+
+![ImagenAlt]()
 
 
 
