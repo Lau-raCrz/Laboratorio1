@@ -42,7 +42,10 @@ Es el sistema de archivos estándar en la mayoría de las distribuciones de Linu
 #### 🟪 APFS (Apple File System):
 Desarrollado por Apple y lanzado en 2017, APFS es el sistema de archivos nativo para macOS, iOS, tvOS y watchOS. Fue diseñado para la era de las unidades de estado sólido (SSD) y el almacenamiento flash, ofreciendo optimizaciones específicas para ellos. Sus características avanzadas incluyen clones instantáneos (instantáneas), encriptación nativa, espacios compartidos y un manejo eficiente del espacio. En cuanto a sus límites, el tamaño máximo de archivo y volumen es de 8 EB (Exabytes), lo que lo hace adecuado para el almacenamiento de datos a gran escala. Su compatibilidad es exclusivamente dentro del ecosistema de Apple; es completamente nativo y optimizado para dispositivos macOS, iPhone, iPad, Apple TV y Apple Watch, pero no es compatible de forma nativa con Windows o Linux, lo que limita su uso en entornos multiplataforma fuera del software de terceros. Se recomienda su uso para todos los discos internos y externos de dispositivos Apple, aprovechando al máximo sus características de rendimiento y seguridad.
 
-![Image Alt](https://github.com/Lau-raCrz/Laboratorio1/blob/379c5f3c195d6558917f83d0375aea3031172716/exfat-fat32-or-ntfs.jpg)
+<p align="center">
+  <img src="https://github.com/Lau-raCrz/Laboratorio1/blob/49ed356e2a224432f813c62fde904aa5e0c0364b/Imagenes%20Digitales/FAT_EX_NTF%20.jpg" width="400" />
+</p>
+
 
 ### 📊 Comparativa Rápida
 
@@ -59,8 +62,13 @@ APFS	|macOS (✔), Windows/Linux (❌ sin software) |	8 EB |	Discos internos de 
 
 #### **Descarga de la herramienta**
  - Se descargó la utilidad Rufus en el computador. Para este procedimiento se utilizó la versión 4.9.
+   
+<p align="center">
+  <img src="https://github.com/Lau-raCrz/Laboratorio1/blob/379c5f3c195d6558917f83d0375aea3031172716/image.png" width="400" />
+</p>
 
-![Image Alt](https://github.com/Lau-raCrz/Laboratorio1/blob/379c5f3c195d6558917f83d0375aea3031172716/image.png)
+
+
 
 #### **Configuracion de la instalación**
  - Una vez ejecutado Rufus, en el campo “Dispositivo” se seleccionó la memoria USB que se iba a formatear.
@@ -69,18 +77,42 @@ APFS	|macOS (✔), Windows/Linux (❌ sin software) |	8 EB |	Discos internos de 
  - Se hizo clic en “Empezar” y se esperó a que Rufus finalizara la creación de la memoria USB booteable.
 Durante este proceso, el contenido previo de la memoria fue eliminado.
 
-![Image Alt]() 
+
+<p align="center">
+  <img src="https://github.com/Lau-raCrz/Laboratorio1/blob/49ed356e2a224432f813c62fde904aa5e0c0364b/Imagenes%20Digitales/Configuracion_rufus.png" width="400" />
+</p>
 
 #### Resultado final
  - Una vez completada la instalación, la memoria quedó configurada como un medio de arranque de Ubuntu, lista para ser utilizada.
 
-![ImagenAlt](https://github.com/Lau-raCrz/Laboratorio1/blob/379c5f3c195d6558917f83d0375aea3031172716/imagen_2025-08-17_020036485.png)
+<p align="center">
+  <img src="https://github.com/Lau-raCrz/Laboratorio1/blob/379c5f3c195d6558917f83d0375aea3031172716/imagen_2025-08-17_020036485.png" width="400" />
+</p>
+
 
 #### Arranque desde la USB
  - Finalmente, se reinició el computador, se accedió al menú UEFI/BIOS y se seleccionó la memoria USB como dispositivo de arranque.
 
-![ImagenAlt]()
+<p align="center">
+  <img src="https://github.com/Lau-raCrz/Laboratorio1/blob/49ed356e2a224432f813c62fde904aa5e0c0364b/Imagenes%20Digitales/Potada_UEFI.png" width="400" />
+</p>
 
 
+##  Instalacion de UBUNTU
+ - Después de preparar la memoria USB booteable con Rufus y configurarla como dispositivo de arranque en la BIOS/UEFI, se inició el instalador de Ubuntu.
+<p align="center">
+  <img src="https://github.com/Lau-raCrz/Laboratorio1/blob/5a0ce5e26dd799b8994fd1535eea0f554614746d/Imagenes%20Digitales/Imagen%20de%20WhatsApp%202025-08-17%20a%20las%2003.11.21_11f1cf7d.jpg" width="400" />
+</p>
+ - Durante el asistente de instalación se siguieron los pasos correspondientes hasta llegar a la sección de particionado del disco.
+
+
+
+#**Faltaaa explicacion de Particion**
+
+ 
+ - Finalmente, tras un tiempo de espera en el que se copiaron los archivos y se configuró el sistema, la instalación se completó exitosamente, quedando listo para reiniciar el equipo e iniciar Ubuntu desde el gestor de arranque.
+<p align="center">
+  <img src="https://github.com/Lau-raCrz/Laboratorio1/blob/4ae00ff856e059aebb83632f553680ec1885a451/Imagenes%20Digitales/Instalacion_completada.jpg" width="400" />
+</p>
 
 
