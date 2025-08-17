@@ -103,11 +103,12 @@ Durante este proceso, el contenido previo de la memoria fue eliminado.
 <p align="center">
   <img src="https://github.com/Lau-raCrz/Laboratorio1/blob/5a0ce5e26dd799b8994fd1535eea0f554614746d/Imagenes%20Digitales/Imagen%20de%20WhatsApp%202025-08-17%20a%20las%2003.11.21_11f1cf7d.jpg" width="400" />
 </p>
+
  - Durante el asistente de instalación se siguieron los pasos correspondientes hasta llegar a la sección de particionado del disco.
 
 
 
-#**Faltaaa explicacion de Particion**
+# *Faltaaa explicacion de Particion*
 
  
  - Finalmente, tras un tiempo de espera en el que se copiaron los archivos y se configuró el sistema, la instalación se completó exitosamente, quedando listo para reiniciar el equipo e iniciar Ubuntu desde el gestor de arranque.
