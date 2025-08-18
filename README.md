@@ -1,43 +1,13 @@
 # Práctica de Laboratotio 1 - Unidades Booteables
 
-## 💽 Estructura de Particiones
 
-### 💾 ¿Que es una Partición?
-
-Una Partición es una división lógica y una herramienta de un **Disco de Almacenamiento (USB, SSD, Disco Duro)** que permite partir o dividir la memoria en espacios de manera Idependiente, permitiendo organizar y gestionar datos, multiples **Sistemas Operativos**, optimizar el rendimiento y seguridad del Almacenamiento. Cada partición funciona como un disco undeoenduente y se identifica en una **Tabla de Particiones** en la cual se guarda la información.
-
-<img width="1358" height="219" alt="Captura de pantalla 2025-08-18 160857" src="https://github.com/user-attachments/assets/ce7cd76f-943b-48ff-a812-6cabb943a9b9" />
-
-En la imagen se puede apreciar un buen ejemplo de particiones: por un lado, un disco SSD que contiene el sistema de arranque y Windows; y por otro, un disco duro mecánico dividido en varias particiones, algunas destinadas al almacenamiento de datos y otras al sistema operativo Ubuntu.
-
-### 📚 Estructura de Particiones
-
-Cuando se realiza una Partición la información de esta se guarda en un sector especial del disco, que depende del **Esquema de Partición** usado.
-
-| Estructura | Características | Ventajas |
-| ------------- | ------------- |------------- |
-| **MBR (MASTER BOOT RECORT)** | (Ocupa **[512 bytes]** en el sector primario del disco.) (**Máx. 4** Particiónes Primarias.) (Una de las Particiones puede ser extendida a una **Unidad Lógica**.) (**Máx. 2TB** por Partición.) |Compatibilidad con **Sistemas Antiguos** y Sencillo de Implementar.|
-| **GPT(GUID PRTITION TABLE)**  | (Estandar Moderno **UEFI**.) (**128** Particiones Primarias) (Soporta Discos de **9.4 ZB**) (**Copias de Seguridad** de la Tabla) | Soporta **Discos más pesados**, mayor **Seguridad e Integridad** y Identicadores únicos **GUID**. |
-
-### 📌 Tipos de Particiones
-
-Existen distintos tipos de particiones dependiendo de su **Esquema (MBR o GPT).**
-
-| Tipo de Partición | Descripción | Restricción |
-| ------------- | ------------- | ------------- |
-| **Primaria**  | Partición Basica que permite Almacenar S.O. o Datos  | **Máx. 4** Primarias de MBR |
-| **Extendida**  | Contenedor de Particiones Adicionales   | **Máx. 1 Disco** y no Almacena Datos directamente |
-| **Lógica**  | Subdivisiones en la Extendida  | No pueden trabajar **Arranques** |
-
-📎 En **GPT** solo existen particiones primarias, eliminando la necesidad de extendidas y lógicas.
-
-### Sistemas de archivos compatibles
+## 📂 Sistemas de archivos compatibles
 
 Los sistemas de archivos son estructuras utilizadas por los sistemas operativos para organizar, almacenar y gestionar archivos en dispositivos de almacenamiento como discos duros, USB o SSD. Definen cómo se guardan los datos, cómo se accede a ellos y cómo se manejan aspectos como el tamaño máximo de archivos o la seguridad.
 Los "sistemas de archivos compatibles" se refieren a aquellos que pueden ser leídos y escritos en múltiples sistemas operativos (como Windows, Linux y macOS) sin requerir software adicional o con mínima configuración. Esto es útil para compartir datos entre plataformas diferentes, evitando problemas de incompatibilidad. Por ejemplo, un USB formateado en un sistema compatible puede usarse en cualquier computadora sin issues.
 
 
-## 🔑 Tipos de Sistemas de Archivos Compatibles
+### 🔑 Tipos de Sistemas de Archivos Compatibles
 
 #### 🟦 FAT32 (File Allocation Table 32)
 
@@ -45,7 +15,6 @@ Se caracterizan por ser uno de los sistemas mas antiguos y simples, introducido 
 Tiene una compatibilida alata ya que soporta la mayorioa de Windows, macOS (lectura/escritura), Linux (lectura/escritura nativa) y muchos dispositivos como cámaras o consolas. Y las limitaciones que precenta es que el tamaño maximo de archivo es de 4GB, con volumen de particion siendo de 8TB, es recomendado para el intercambio de archivos pequeños entre plataformas, pero no es recomensdarle utilizarlo para diiscos duros internos sa que carece de permisos para el sistema operativo de Windows.
 
   
----
 
 #### 🟩 exFAT (Extended File Allocation Table)
 
@@ -80,6 +49,41 @@ Desarrollado por Apple y lanzado en 2017, APFS es el sistema de archivos nativo 
 APFS	|macOS (✔), Windows/Linux (❌ sin software) |	8 EB |	Discos internos de dispositivos Apple (Mac, iPhone, iPad) |	Sí, soporte para encriptación de disco completo y permisos de usuario.|
 
 ---
+
+
+## 💽 Estructura de Particiones
+
+### 💾 ¿Que es una Partición?
+
+Una Partición es una división lógica y una herramienta de un **Disco de Almacenamiento (USB, SSD, Disco Duro)** que permite partir o dividir la memoria en espacios de manera Idependiente, permitiendo organizar y gestionar datos, multiples **Sistemas Operativos**, optimizar el rendimiento y seguridad del Almacenamiento. Cada partición funciona como un disco undeoenduente y se identifica en una **Tabla de Particiones** en la cual se guarda la información.
+
+<img width="1358" height="219" alt="Captura de pantalla 2025-08-18 160857" src="https://github.com/user-attachments/assets/ce7cd76f-943b-48ff-a812-6cabb943a9b9" />
+
+En la imagen se puede apreciar un buen ejemplo de particiones: por un lado, un disco SSD que contiene el sistema de arranque y Windows; y por otro, un disco duro mecánico dividido en varias particiones, algunas destinadas al almacenamiento de datos y otras al sistema operativo Ubuntu.
+
+### 📚 Estructura de Particiones
+
+Cuando se realiza una Partición la información de esta se guarda en un sector especial del disco, que depende del **Esquema de Partición** usado.
+
+| Estructura | Características | Ventajas |
+| ------------- | ------------- |------------- |
+| **MBR (MASTER BOOT RECORT)** | (Ocupa **[512 bytes]** en el sector primario del disco.) (**Máx. 4** Particiónes Primarias.) (Una de las Particiones puede ser extendida a una **Unidad Lógica**.) (**Máx. 2TB** por Partición.) |Compatibilidad con **Sistemas Antiguos** y Sencillo de Implementar.|
+| **GPT(GUID PRTITION TABLE)**  | (Estandar Moderno **UEFI**.) (**128** Particiones Primarias) (Soporta Discos de **9.4 ZB**) (**Copias de Seguridad** de la Tabla) | Soporta **Discos más pesados**, mayor **Seguridad e Integridad** y Identicadores únicos **GUID**. |
+
+### 📌 Tipos de Particiones
+
+Existen distintos tipos de particiones dependiendo de su **Esquema (MBR o GPT).**
+
+| Tipo de Partición | Descripción | Restricción |
+| ------------- | ------------- | ------------- |
+| **Primaria**  | Partición Basica que permite Almacenar S.O. o Datos  | **Máx. 4** Primarias de MBR |
+| **Extendida**  | Contenedor de Particiones Adicionales   | **Máx. 1 Disco** y no Almacena Datos directamente |
+| **Lógica**  | Subdivisiones en la Extendida  | No pueden trabajar **Arranques** |
+
+📎 En **GPT** solo existen particiones primarias, eliminando la necesidad de extendidas y lógicas.
+
+---
+
 ## 🔑 Creación de USB booteable con Rufus
 
 #### **Descarga de la herramienta**
@@ -120,19 +124,13 @@ Durante este proceso, el contenido previo de la memoria fue eliminado.
 </p>
 
 
-##  Instalacion de UBUNTU
+## 💻 Instalacion de UBUNTU
  - Después de preparar la memoria USB booteable con Rufus y configurarla como dispositivo de arranque en la BIOS/UEFI, se inició el instalador de Ubuntu.
 <p align="center">
   <img src="https://github.com/Lau-raCrz/Laboratorio1/blob/5a0ce5e26dd799b8994fd1535eea0f554614746d/Imagenes%20Digitales/Imagen%20de%20WhatsApp%202025-08-17%20a%20las%2003.11.21_11f1cf7d.jpg" width="400" />
 </p>
 
  - Durante el asistente de instalación se siguieron los pasos correspondientes hasta llegar a la sección de particionado del disco.
-
-
-
-# *Faltaaa explicacion de Particion*
-
- 
  - Finalmente, tras un tiempo de espera en el que se copiaron los archivos y se configuró el sistema, la instalación se completó exitosamente, quedando listo para reiniciar el equipo e iniciar Ubuntu desde el gestor de arranque.
 <p align="center">
   <img src="https://github.com/Lau-raCrz/Laboratorio1/blob/4ae00ff856e059aebb83632f553680ec1885a451/Imagenes%20Digitales/Instalacion_completada.jpg" width="400" />
