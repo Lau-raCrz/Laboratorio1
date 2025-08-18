@@ -1,11 +1,14 @@
-# **Laboratotio 1 - Unidades Booteables**
-## **Primer Punto**
->[!IMPORTANT]
->Luego agrego más :D
-### **Particiones y sus Estructuras**
-> Las particiones son uon una herramienta en la cual los Discos de Almacenamiento (USB, SSD, Disco Duro), se pueden paartir o dividir sus archivos en dos o mas secciones llamadas particiones. Esta division permite mejorar la organización de datos, instalar múltiples sistemas operativos y optimiza el rendimiento y la seguridad de nuestro almacenamiento.
-### **Tipos de Particiones**
-> :D
+# Práctica de Laboratotio 1 - Unidades Booteables
+
+### 💽 Estructura de Particiones
+
+## 💾 ¿Que es una Partición?
+
+Una Partición es una división lógica y una herramienta de un **Disco de Almacenamiento (USB, SSD, Disco Duro)** que permite partir o dividir la memoria en espacios de manera Idependiente, permitiendo organizar y gestionar datos, multiples **Sistemas Operativos**, optimizar el rendimiento y seguridad del Almacenamiento. Cada partición funciona como un disco undeoenduente y se identifica en una **Tabla de Particiones** en la cual se guarda la información.
+
+<img width="1358" height="219" alt="Captura de pantalla 2025-08-18 160857" src="https://github.com/user-attachments/assets/ce7cd76f-943b-48ff-a812-6cabb943a9b9" />
+
+En la imagen se puede apreciar un buen ejemplo de particiones: por un lado, un disco SSD que contiene el sistema de arranque y Windows; y por otro, un disco duro mecánico dividido en varias particiones, algunas destinadas al almacenamiento de datos y otras al sistema operativo Ubuntu.
 
 ##  Tercer Punto
 
