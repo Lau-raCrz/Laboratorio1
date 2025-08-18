@@ -29,6 +29,8 @@ Existen distintos tipos de particiones dependiendo de su **Esquema (MBR o GPT).*
 | **Extendida**  | Contenedor de Particiones Adicionales   | **Máx. 1 Disco** y no Almacena Datos directamente |
 | **Lógica**  | Subdivisiones en la Extendida  | No pueden trabajar **Arranques** |
 
+📎 En **GPT** solo existen particiones primarias, eliminando la necesidad de extendidas y lógicas.
+
 ### Sistemas de archivos compatibles
 
 Los sistemas de archivos son estructuras utilizadas por los sistemas operativos para organizar, almacenar y gestionar archivos en dispositivos de almacenamiento como discos duros, USB o SSD. Definen cómo se guardan los datos, cómo se accede a ellos y cómo se manejan aspectos como el tamaño máximo de archivos o la seguridad.
