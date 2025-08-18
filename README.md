@@ -1,8 +1,8 @@
 # Práctica de Laboratotio 1 - Unidades Booteables
 
-### 💽 Estructura de Particiones
+## 💽 Estructura de Particiones
 
-## 💾 ¿Que es una Partición?
+### 💾 ¿Que es una Partición?
 
 Una Partición es una división lógica y una herramienta de un **Disco de Almacenamiento (USB, SSD, Disco Duro)** que permite partir o dividir la memoria en espacios de manera Idependiente, permitiendo organizar y gestionar datos, multiples **Sistemas Operativos**, optimizar el rendimiento y seguridad del Almacenamiento. Cada partición funciona como un disco undeoenduente y se identifica en una **Tabla de Particiones** en la cual se guarda la información.
 
@@ -10,7 +10,24 @@ Una Partición es una división lógica y una herramienta de un **Disco de Almac
 
 En la imagen se puede apreciar un buen ejemplo de particiones: por un lado, un disco SSD que contiene el sistema de arranque y Windows; y por otro, un disco duro mecánico dividido en varias particiones, algunas destinadas al almacenamiento de datos y otras al sistema operativo Ubuntu.
 
-##  Tercer Punto
+### 📚 Estructura de Particiones
+
+Cuando se realiza una Partición la información de esta se guarda en un sector especial del disco, que depende del **Esquema de Partición** usado.
+
+| Estructura | Características | Ventajas |
+| ------------- | ------------- |------------- |
+| **MBR (MASTER BOOT RECORT)** | (Ocupa **[512 bytes]** en el sector primario del disco.) (**Máx. 4** Particiónes Primarias.) (Una de las Particiones puede ser extendida a una **Unidad Lógica**.) (**Máx. 2TB** por Partición.) |Compatibilidad con **Sistemas Antiguos** y Sencillo de Implementar.|
+| **GPT(GUID PRTITION TABLE)**  | (Estandar Moderno **UEFI**.) (**128** Particiones Primarias) (Soporta Discos de **9.4 ZB**) (**Copias de Seguridad** de la Tabla) | Soporta **Discos más pesados**, mayor **Seguridad e Integridad** y Identicadores únicos **GUID**. |
+
+### 📌 Tipos de Particiones
+
+Existen distintos tipos de particiones dependiendo de su **Esquema (MBR o GPT).**
+
+| Tipo de Partición | Descripción | Restricción |
+| ------------- | ------------- | ------------- |
+| **Primaria**  | Partición Basica que permite Almacenar S.O. o Datos  | **Máx. 4** Primarias de MBR |
+| **Extendida**  | Contenedor de Particiones Adicionales   | **Máx. 1 Disco** y no Almacena Datos directamente |
+| **Lógica**  | Subdivisiones en la Extendida  | No pueden trabajar **Arranques** |
 
 ### Sistemas de archivos compatibles
 
