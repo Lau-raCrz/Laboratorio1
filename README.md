@@ -135,21 +135,46 @@ Durante este proceso, el contenido previo de la memoria fue eliminado.
 
 - Luego de descargar el archivo, se debe descomprimir la carpeta.
 
-<img width="714" height="354" alt="image" src="https://github.com/user-attachments/assets/5c24c36b-7a5e-4eb3-9fa7-588e81859646" />
+<img width="941" height="551" alt="image" src="https://github.com/user-attachments/assets/8005d11f-fe90-440f-8751-484d0b5276ca" />
 
-- Al ingresar a la carpeta podremos observar varios archivos y carpetas, el de interes para descargar Ventoy es la carpeta **INSTALL**, ingresamos y veremos el **Instalador Ventoy2Disk**
+- Al ingresar a la carpeta podremos observar varios archivos y carpetas, el de interes para descargar Ventoy es la aplicación del**Instalador Ventoy2Disk**
 
-<img width="645" height="529" alt="image" src="https://github.com/user-attachments/assets/d560dc69-06d7-45a7-9b5d-6dc6719098c4" />
+<img width="920" height="446" alt="image" src="https://github.com/user-attachments/assets/60bb6b42-3653-4d36-8c0c-c3b003588d4f" />
 
-<img width="764" height="496" alt="image" src="https://github.com/user-attachments/assets/e93a6b5d-4c91-41ab-9bc4-198dafcca836" />
+<img width="920" height="446" alt="image" src="https://github.com/user-attachments/assets/d786251f-2417-4bb0-8cc8-86f97a6ec1de" />
 
 📎 Recomendamos ver el siguiente paso antes de Iniciar la Aplicación de **Ventoy2Disk**
 
 #### **Booteable de Memoria con Ventoy**
 
-- Antes de iniciar la Aplicacion de **Ventoy2Disk**, recomendamos ingresar nuestra memoria (USB, PENDRIVE, UNIDAD EXTERNA) para que al momento de iniciar nuestro programa este lo pueda reconocer.
+- Antes de iniciar la Aplicacion de **Ventoy2Disk**, recomendamos ingresar la memoria (USB, PENDRIVE, UNIDAD EXTERNA) para que al momento de iniciar el programa este lo pueda reconocer y luego por segurdad **Ejecutaremos como Administrador**.
 
-📎 La memoria de uso dependera de los Sistemas Operativos que usemos, en nuestro caso usaremos una de **8GB**, ya que las **Imagenes de los Sistemas Operativos** superan los 10GB 
+<img width="800" height="666" alt="image" src="https://github.com/user-attachments/assets/cd3ef5a9-005b-4740-bd16-e6809ae37e1f" />
+
+📎 La memoria de uso dependera de los Sistemas Operativos que desee usar, en nuestro caso usaremos una de **16GB**, ya que las **Imagenes de los Sistemas Operativos** superan los 10GB 
+
+- Al iniciar la Aplicación se nos abrira una ventada en la cual podremos **Visualizar el instalador y la Memoria a Elección**, tambien tendremos como adiccional la configuración del idioma y más opciones.
+
+<img width="546" height="433" alt="image" src="https://github.com/user-attachments/assets/bb2c567e-db45-4490-9bca-4a2061c75340" />
+
+- En el **Recuadro Azul escogeremos nuestra Memoria a Bootear**, en nuestro caso escogeremos la de **E: 16 GB**.
+- Luego en el **Recuadro Rojo le daremos Install.**
+
+<img width="546" height="433" alt="image" src="https://github.com/user-attachments/assets/c4ccd4ee-e4ff-4a4c-bbbd-71a0385390b5" />
+
+- Despues de iniciar la instalación el programa pedira unas opciones, en las cuales aceptaremos para completar la correcta instalacción.
+
+<img width="542" height="435" alt="image" src="https://github.com/user-attachments/assets/eb51eee4-df18-4022-a2b8-e12df71caabc" />
+
+<img width="543" height="430" alt="image" src="https://github.com/user-attachments/assets/41555bff-ed9d-45ce-badf-aab2efa7c9bb" />
+
+<img width="542" height="441" alt="image" src="https://github.com/user-attachments/assets/a71cbb82-bf1c-4314-8f9a-06ce14c4b312" />
+
+- Para asegurarnos de que la instalación se realizó correctamente, Ventoy mostrará una ventana de confirmación y el sistema de nuestro PC notificará que la memoria USB ya cuenta con Ventoy
+
+<img width="453" height="206" alt="image" src="https://github.com/user-attachments/assets/8a6a9620-f070-4d8e-a4dd-7407f4b48531" />
+
+<img width="500" height="188" alt="image" src="https://github.com/user-attachments/assets/dfe6bbf5-d537-4874-8952-1f3c7c1026b1" />
 
 ---
 ## 💻 Instalacion de UBUNTU
