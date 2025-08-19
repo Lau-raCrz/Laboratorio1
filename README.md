@@ -84,6 +84,15 @@ Existen distintos tipos de particiones dependiendo de su **Esquema (MBR o GPT).*
 
 ---
 
+## 📦 Instalar Paqueteria de Imagen Windows y Ubuntu
+- Para la **Imagen de Ubuntu** la podremos encontrar en su pagina principal **[https://ubuntu.com/download]**, siempre escogeremos la version nueva o la que desee descargar.
+
+<img width="1308" height="362" alt="image" src="https://github.com/user-attachments/assets/456b1ba8-62ba-4d26-9441-e565f1d9c214" />
+
+<img width="1747" height="427" alt="image" src="https://github.com/user-attachments/assets/4fc5e199-4777-4f6f-bc10-ec0c64766713" />
+
+
+---
 ## 🔑 Creación de USB booteable con Rufus
 
 #### **Descarga de la herramienta**
