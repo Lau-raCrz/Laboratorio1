@@ -1,4 +1,4 @@
-# Práctica de Laboratotio 1 - Unidades Booteables
+# 📎 Práctica de Laboratotio 1 - Unidades Booteables
 
 
 ## 📂 Sistemas de archivos compatibles
@@ -123,7 +123,35 @@ Durante este proceso, el contenido previo de la memoria fue eliminado.
   <img src="https://github.com/Lau-raCrz/Laboratorio1/blob/49ed356e2a224432f813c62fde904aa5e0c0364b/Imagenes%20Digitales/Potada_UEFI.png" width="400" />
 </p>
 
+---
 
+## 🔑 Creación de USB booteable con Ventoy
+
+#### **Descarga de Ventoy**
+
+ - Se busca la pagina de **Ventoy (https://www.ventoy.net/en/download.html)** y descargamos el archivo segun nuestro **Sistema Operativo**, en nuestro caso escogemos el Ventoy 1.1.07 para Windows.
+ - 
+<img width="1346" height="492" alt="image" src="https://github.com/user-attachments/assets/b722d6c4-bda3-4ffd-a000-910e8a939ff0" />
+
+- Luego de descargar el archivo, se debe descomprimir la carpeta.
+
+<img width="714" height="354" alt="image" src="https://github.com/user-attachments/assets/5c24c36b-7a5e-4eb3-9fa7-588e81859646" />
+
+- Al ingresar a la carpeta podremos observar varios archivos y carpetas, el de interes para descargar Ventoy es la carpeta **INSTALL**, ingresamos y veremos el **Instalador Ventoy2Disk**
+
+<img width="645" height="529" alt="image" src="https://github.com/user-attachments/assets/d560dc69-06d7-45a7-9b5d-6dc6719098c4" />
+
+<img width="764" height="496" alt="image" src="https://github.com/user-attachments/assets/e93a6b5d-4c91-41ab-9bc4-198dafcca836" />
+
+📎 Recomendamos ver el siguiente paso antes de Iniciar la Aplicación de **Ventoy2Disk**
+
+#### **Booteable de Memoria con Ventoy**
+
+- Antes de iniciar la Aplicacion de **Ventoy2Disk**, recomendamos ingresar nuestra memoria (USB, PENDRIVE, UNIDAD EXTERNA) para que al momento de iniciar nuestro programa este lo pueda reconocer.
+
+📎 La memoria de uso dependera de los Sistemas Operativos que usemos, en nuestro caso usaremos una de **8GB**, ya que las **Imagenes de los Sistemas Operativos** superan los 10GB 
+
+---
 ## 💻 Instalacion de UBUNTU
  - Después de preparar la memoria USB booteable con Rufus y configurarla como dispositivo de arranque en la BIOS/UEFI, se inició el instalador de Ubuntu.
 <p align="center">
