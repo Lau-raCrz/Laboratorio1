@@ -91,6 +91,19 @@ Existen distintos tipos de particiones dependiendo de su **Esquema (MBR o GPT).*
 
 <img width="1747" height="427" alt="image" src="https://github.com/user-attachments/assets/4fc5e199-4777-4f6f-bc10-ec0c64766713" />
 
+- Para la **Imagen de Windows** en su ultima versión lo encontrremos en su pagina principal **[https://www.microsoft.com/es-es/software-download/windows11]**.
+  
+<img width="1168" height="583" alt="image" src="https://github.com/user-attachments/assets/069e262f-0a73-4974-bc6f-353ec702034d" />
+
+- Luego debemos escoger el idioma del Sistema Opertaivo que deseamos descargar y luego de escogerlo nos dejara instalar nuestro **Sistema Operativo**.
+
+<img width="1201" height="365" alt="image" src="https://github.com/user-attachments/assets/bd972c9e-1a28-45ec-94d9-3a53415a1416" />
+
+<img width="810" height="145" alt="image" src="https://github.com/user-attachments/assets/fe3e4fc6-47aa-4f90-b1b5-94a7507e3f2a" />
+
+- Y al final ya tendremos nuestros dos imagenes de los **Sistemas Operativos** que usaremos para esta practica.
+
+<img width="801" height="187" alt="image" src="https://github.com/user-attachments/assets/c415cf34-4745-49fa-9b0d-f3e115792542" />
 
 ---
 ## 🔑 Creación de USB booteable con Rufus
@@ -185,6 +198,13 @@ Durante este proceso, el contenido previo de la memoria fue eliminado.
 
 <img width="500" height="188" alt="image" src="https://github.com/user-attachments/assets/dfe6bbf5-d537-4874-8952-1f3c7c1026b1" />
 
+- Luego de todos los pasos anteriores, lo unico que falta es agregar nuestros dos **Sistemas Operativos** a la memoria de Ventoy, en este caso guardaremos el **Windows 11 y el Ubuntu**
+
+<img width="338" height="83" alt="image" src="https://github.com/user-attachments/assets/9246d637-bc86-41ce-aa70-f9455f1b2e68" />
+
+<img width="1703" height="417" alt="image" src="https://github.com/user-attachments/assets/6afa06fa-76c5-43a5-9a31-14a2cd5b3994" />
+
+- Y ya tendriamos nuestras imagenes en la **Memoria de Ventoy :D**.
 ---
 ## 💻 Instalacion de UBUNTU
  - Después de preparar la memoria USB booteable con Rufus y configurarla como dispositivo de arranque en la BIOS/UEFI, se inició el instalador de Ubuntu.
