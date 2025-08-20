@@ -205,6 +205,9 @@ Durante este proceso, el contenido previo de la memoria fue eliminado.
 <img width="1703" height="417" alt="image" src="https://github.com/user-attachments/assets/6afa06fa-76c5-43a5-9a31-14a2cd5b3994" />
 
 - Y ya tendriamos nuestras imagenes en la **Memoria de Ventoy :D**.
+
+<img width="758" height="661" alt="image" src="https://github.com/user-attachments/assets/a5075b18-e8b5-44be-a90d-b09569dea893" />
+  
 ---
 ## 💻 Instalacion de UBUNTU
  - Después de preparar la memoria USB booteable con Rufus y configurarla como dispositivo de arranque en la BIOS/UEFI, se inició el instalador de Ubuntu.
