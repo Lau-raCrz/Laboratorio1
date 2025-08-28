@@ -7,6 +7,12 @@ Los sistemas de archivos son estructuras utilizadas por los sistemas operativos 
 Los "sistemas de archivos compatibles" se refieren a aquellos que pueden ser leídos y escritos en múltiples sistemas operativos (como Windows, Linux y macOS) sin requerir software adicional o con mínima configuración. Esto es útil para compartir datos entre plataformas diferentes, evitando problemas de incompatibilidad. Por ejemplo, un USB formateado en un sistema compatible puede usarse en cualquier computadora sin issues.
 
 
+
+
+
+
+
+
 ### 🔑 Tipos de Sistemas de Archivos Compatibles
 
 #### 🟦 FAT32 (File Allocation Table 32)
