@@ -1,8 +1,8 @@
 # 📎 Práctica de Laboratotio 1 - Unidades Booteables
 ## PROCESO DE BOOTEO
 ## Proceso de booteo con Rufus y ventoy 
-Rufus es un programa gratuito y de código abierto para Windows que sirve para crear memorias USB booteables.
-El primer paso esta en descargar rufus desde la pagina, teniendo la  memoria conectada se abre rufus y se selecciona la usb que se quierfe bootear  es importante anterior mente tener la imagen  o archivo ISO descargado para terminar selecciona la imagen iso que vas a usar  y ya despues podera tener una usb booteable este mismo proceso se realiza para bootear la usb con ventoy la diferencia esta en que con ventoy podemos tener varias ISO
+Rufus y ventoy son programas gratuitos y de código abierto para Windows que sirven para crear memorias USB booteables.
+El primer paso esta en descargar rufus y ventoy  desde la pagina, teniendo la  memoria conectada se abre rufus y se selecciona la usb que se quierfe bootear  es importante anteriormente tener la imagen  o archivo ISO descargado. Para terminar selecciona la imagen iso que vas a usar  y ya despues podras  tener una usb booteable este mismo proceso se realiza para bootear la usb con ventoy la diferencia esta en que con ventoy podemos tener varias ISOs
 ## BOOTLOADER y GRUB
 Cuando un PC arranca, la BIOS/UEFI busca un dispositivo (disco duro, USB, CD) que tenga instrucciones de arranque.
 Ahí es donde entra el bootloader (cargador de arranque).
