@@ -1,4 +1,26 @@
 # 📎 Práctica de Laboratotio 1 - Unidades Booteables
+## PROCESO DE BOOTEO
+## Proceso de booteo con Rufus y ventoy 
+Rufus es un programa gratuito y de código abierto para Windows que sirve para crear memorias USB booteables.
+El primer paso esta en descargar rufus desde la pagina, teniendo la  memoria conectada se abre rufus y se selecciona la usb que se quierfe bootear  es importante anterior mente tener la imagen  o archivo ISO descargado para terminar selecciona la imagen iso que vas a usar  y ya despues podera tener una usb booteable este mismo proceso se realiza para bootear la usb con ventoy la diferencia esta en que con ventoy podemos tener varias ISO
+## BOOTLOADER y GRUB
+Cuando un PC arranca, la BIOS/UEFI busca un dispositivo (disco duro, USB, CD) que tenga instrucciones de arranque.
+Ahí es donde entra el bootloader (cargador de arranque).
+ ## Funciones del bootloader en la memoria USB:
+  -Recibir el control inicial de la BIOS/UEFI cuando se arranca desde la memoria.
+  -Identificar y preparar el hardware básico (memoria RAM, discos, teclado, etc.).
+  -Cargar el núcleo (kernel) del sistema operativo desde la memoria USB.
+  -Transferir el control al sistema operativo para que termine de arrancar.
+Sin bootloader, la memoria no sabría qué hacer después de que la BIOS/UEFI la elige, y el PC mostraría error de arranque.
+
+## GRUB
+GRUB (GRand Unified Bootloader) es uno de los bootloaders más usados, especialmente en sistemas Linux.
+Características principales:
+  -Permite arrancar distintos sistemas operativos (ejemplo: Linux, Windows, BSD) en un mismo PC (multiboot).
+  -Tiene un menú interactivo para elegir qué sistema iniciar.
+  -Puede cargar kernels de Linux directamente.
+  -Es muy flexible y configurable mediante un archivo de configuración (grub.cfg).
+En muchos USB booteables de Linux creados con Rufus o Ventoy, el bootloader que se instala o se ejecuta es GRUB.
 
 
 ## 📂 Sistemas de archivos compatibles
